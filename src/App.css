@@ -1,0 +1,81 @@
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.App {
+  text-align: left;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.venueList {
+  padding: 1rem;
+  
+}
+
+.sideBar {
+  background: #6c9de0;
+  color: white;
+  line-height: 2rem;
+}
+
+.listItem {
+  font-size: 1rem;
+  list-style: none;
+  padding:  .5rem;
+  padding-bottom:  1rem;
+  cursor: pointer;
+}
+
+.listItem img {
+  position: relative;
+  top: 10px;
+  margin-right: 5px;
+
+}
+
+.sidebar {
+  width: 25%;
+}
+
+#search {
+  width: 100%;
+  height: 2rem;
+  font-size: 1rem;
+  padding: 1.5rem;
+  
+}
+
+div #searchDiv {
+  background-color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.credits {
+  font-size: .6rem;
+}
